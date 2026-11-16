@@ -7,7 +7,8 @@ project_path = Path(__file__).resolve().parent.parent
 
 audio_files = [
     project_path / "data" / "normal" / "normal_01.wav",
-    project_path / "data" / "test" / "test_01.wav"
+    project_path / "data" / "test" / "test_01.wav",
+    project_path / "data" / "raw" / "mic_recording.wav"
 ]
 
 print("\n===== AETHERHOUND AUDIO ANALYSIS =====")
